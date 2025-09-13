@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        finance: {
+          primary: "hsl(var(--finance-primary))",
+          secondary: "hsl(var(--finance-secondary))",
+          accent: "hsl(var(--finance-accent))",
+          success: "hsl(var(--finance-success))",
+          warning: "hsl(var(--finance-warning))",
+          danger: "hsl(var(--finance-danger))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +70,18 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-success": "var(--gradient-success)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "finance": "var(--shadow-finance)",
+        "card": "var(--shadow-card)",
+      },
+      transitionProperty: {
+        "smooth": "var(--transition-smooth)",
       },
       keyframes: {
         "accordion-down": {
